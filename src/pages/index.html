@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../public/assets/css/index.css" />
+  <link rel="stylesheet" href="../../public/assets/css/home.css" />
+  <title>Bella Casa</title>
+</head>
+
+<body>
+  <header>
+    <a href="#">
+      <img class="logo" src="../../public/assets/images/logo.png" alt="Bella Casa Logo" />
+    </a>
+    <div class="header-main-container">
+      <div class="search-container">
+        <input class="search-input" placeholder="Pesquisar" />
+        <img id="search-icon-input" src="../../public/assets/images/search-icon-black.png" alt="search icon" />
+      </div>
+      <div class="icon-container" id="search-mobile-menu-container">
+        <div type="button" data-toggle="modal" data-target="#menu-modal">
+          <div class="icon-wrapper">
+            <img class="header-icon" src="../../public/assets/images/menu-icon-white.png" alt="ícone menu" />
+          </div>
+        </div>
+      </div>
+      <div class="header-icons-container">
+        <div class="icon-container">
+          <a href="#">
+            <div class="icon-wrapper">
+              <img class="header-icon" src="../../public/assets/images/fav-icon-white.png" alt="ícone favoritos" />
+            </div>
+            <div>
+              <label class="header-icon-label" for="#">Favoritos</label>
+            </div>
+          </a>
+        </div>
+        <div class="icon-container">
+          <a href="#">
+            <div class="icon-wrapper">
+              <img class="header-icon" src="../../public/assets/images/profile-icon-white.png" alt="ícone favoritos" />
+            </div>
+            <div>
+              <label class="header-icon-label" for="#">Entrar</label>
+            </div>
+          </a>
+        </div>
+        <div class="icon-container">
+          <a href="#">
+            <div class="icon-wrapper">
+              <img class="header-icon" src="../../public/assets/images/cart-icon-white.png" alt="ícone favoritos" />
+            </div>
+            <div>
+              <label class="header-icon-label" for="#">Carrinho</label>
+            </div>
+          </a>
+        </div>
+        <div class="icon-container" id="search-mobile-icon-container">
+          <a href="#">
+            <div class="icon-wrapper">
+              <img class="header-icon" src="../../public/assets/images/search-icon-white.png" alt="ícone busca" />
+            </div>
+            <div>
+              <label class="header-icon-label" for="#">Buscar</label>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade modal-fullscreen" id="menu-modal" tabindex="-1" role="dialog"
+      aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <header class="menu-links">
+              <a href="#">
+                Favoritos
+              </a>
+              <a href="#">
+                Entrar
+              </a>
+              <a href="#">
+                Carrinho
+              </a>
+            </header>
+          </div>
+        </div>
+  </header>
+  <nav>
+    <ul class="nav-items-list">
+      <li>
+        <a class="navbar-link" href="#">Toda Loja</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#">Ofertas</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#">Sofás</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#">Poltronas</a>
+      </li>
+      <li>
+        <a class="navbar-link" href="#">Decoração</a>
+      </li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <div>
+        <img class="banner-full" src="../../public/assets/images/banner-1.png" alt="Banner produto" />
+        <div class="promotion-banners-container">
+          <img class="promotion-banner" src="../../public/assets/images/prod-3.png" alt="Banner promoção" />
+          <img class="promotion-banner" src="../../public/assets/images/prod-3.png" alt="Banner promoção" />
+        </div>
+      </div>
+    </section>
+    <section class="products-showcase">
+      <div class="products-container">
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline " src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+        <div class="product-container">
+          <img class="product-image" src="../../public/assets/images/prod-1.png" alt="Produto" />
+          <div class="product-info">
+            <div class="product-name-wrapper">
+              <label class="product-name-label">
+                Sofá de dois lugares linho e base de madeira</label>
+              <img class="fav-icon-outline" src="../../public/assets/images/fav-icon-outline.png"
+                alt="Favoritar produto" />
+            </div>
+            <div class="price-container-mobile">
+              <p class="price">R$ 1092,00</p>
+              <img class="fav-icon-outline-mobile" src="../../public/assets/images/fav-icon-outline.png"
+              alt="Favoritar produto" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <span id="social-message-footer">Nos acompanhe nas redes sociais</span>
+    <section>
+      <div class="social-container">
+        <a href="#">
+          <img class="social-icon" src="../../public/assets/images/instagram.png" alt="icone instagram Bella Casa" />
+        </a>
+
+        <a href="#">
+          <img class="social-icon" src="../../public/assets/images/facebook.png" alt="icone facebook Bella Casa" />
+        </a>
+
+        <a href="#">
+          <img class="social-icon" src="../../public/assets/images/linkedin.png" alt="icone linkedin Bella Casa" />
+        </a>
+
+        <a href="#">
+          <img class="social-icon" src="../../public/assets/images/pinterest.png" alt="icone pinterest Bella Casa" />
+        </a>
+    </section>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+  </script>
+</body>
+</html>
