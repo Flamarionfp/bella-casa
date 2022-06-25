@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/assets/css/index.css" />
+    <link rel="stylesheet" href="./public/assets/css/home.css" />
+    <link rel="stylesheet" href="./public/assets/css/form.css" />
+    <title>Bella Casa - Entrar</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="logo"
+          src="./public/assets/images/logo.png"
+          alt="Bella Casa Logo"
+        />
+      </a>
+      <div class="header-main-container"></div>
+    </header>
+    <main>
+      <section>
+        <h1 class="form-title">CRIAR SEU CADASTRO</h1>
+        <form class="form-container">
+          <input class="form-input" placeholder="Nome completo" type="text" />
+          <input class="form-input" placeholder="Email" type="email" />
+          <input
+            class="form-input"
+            placeholder="Data de nascimento"
+            type="date"
+          />
+          <input
+            class="form-input"
+            placeholder="CPF"
+            type="text"
+            maxlength="11"
+          />
+          <select class="form-input select-input" name="select">
+            <option value="male" selected>Masculino</option>
+            <option value="female">Feminino</option>
+            <option value="other">Outro</option>
+          </select>
+          <input class="form-input" placeholder="Senha" type="password" />
+          <input
+            class="form-input"
+            placeholder="Confirmar senha"
+            type="password"
+          />
+          <button class="form-button">Entrar</button>
+          <span
+            >Já possui uma conta?
+            <a class="link-form" href="login.html">Clique aqui</a>
+          </span>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
