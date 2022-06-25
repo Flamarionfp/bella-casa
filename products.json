@@ -1,50 +1,65 @@
 [
   {
+    "id": "1",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": "Sofá de dois lugares linho e base de madeira",
     "price": 1092,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "2",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": "Sofá três lugares linho cotton e base de madeira",
     "price": 1472,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "3",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": "Poltrona em linho antúrio e madeira",
     "price": 1189,
     "isDesired": false
   },
   {
+    "id": "4",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": "Poltrona decorativa linho rosé",
     "price": 867,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "5",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": "Poltrona Otawa linho e madeira",
     "price": 652,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "6",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": " Sofá de dois lugares linho e base de madeira",
     "price": 1250.75,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "7",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": " Sofá de dois lugares linho e base de madeira",
     "price": 1250.75,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   },
   {
+    "id": "8",
     "imageThumbnailUrl": "https://i.ibb.co/0CN1PfK/prod-1.png",
     "displayName": " Sofá de dois lugares linho e base de madeira",
     "price": 1250.75,
-    "isDesired": false
+    "isDesired": false,
+    "route": ""
   }
 ]

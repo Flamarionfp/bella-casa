@@ -199,6 +199,10 @@ footer #social-message-footer {
     flex-direction: row;
   }
 
+  header .logo {
+    margin-bottom: 10px;
+  }
+
   header .search-container {
     display: flex;
     padding: 0;

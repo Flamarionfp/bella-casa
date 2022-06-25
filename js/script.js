@@ -5,7 +5,7 @@ async function loadProducts() {
 }
 
 function formatMoney(value) {
-  return value.toFixed(2).replace(".", ",");
+  return `R$ ${value.toFixed(2).replace(".", ",")}`;
 }
 
 function renderProductsHTML(imageThumbnailUrl, displayName, price) {
@@ -21,7 +21,7 @@ function renderProductsHTML(imageThumbnailUrl, displayName, price) {
           alt="Favoritar produto" /> 
       </div>
       <div class="price-container-mobile">
-        <p class="price" id="price">R$${formatMoney(price)}</p>
+        <p class="price" id="price">${formatMoney(price)}</p>
         <img class="fav-icon-outline fav-icon-outline-mobile" src="./public/assets/images/fav-icon-outline.png"
         alt="Favoritar produto" />
       </div>
@@ -36,8 +36,16 @@ function renderProducts(products) {
   });
 }
 
+// function handlefavoriteProduct(products, productId) {
+//   let desiredProductIndex = products.findIndex(
+//     (product) => product.id === productId
+//   );
+//   products[desiredProductIndex].favorite =
+//     !products[desiredProductIndex].favorite;
+// }
+
 async function main() {
-  const products = await loadProducts();
+  let products = await loadProducts();
   renderProducts(products);
 }
 
