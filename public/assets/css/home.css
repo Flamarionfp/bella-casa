@@ -43,6 +43,18 @@
   justify-content: space-between;
 }
 
+.product-name-label,
+.product-name-label-mobile {
+  width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-name-label-mobile {
+  display: none;
+}
+
 .fav-icon-outline,
 .fav-icon-outline-mobile {
   width: 20px;
@@ -102,6 +114,10 @@
 
   .products-showcase .product-name-wrapper {
     display: none;
+  }
+
+  .product-name-label-mobile {
+    display: block;
   }
 
   .price-container-mobile {
